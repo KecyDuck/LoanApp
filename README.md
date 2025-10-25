@@ -63,9 +63,9 @@ src/main/java/com/example/loanapp
 
 ---
 
-## 🧠 Concept Highlights
+## Concept Highlights
 
-### 🌀 Spring IoC (Inversion of Control)
+### Spring IoC (Inversion of Control)
 Used throughout the project via **`@Service`**, **`@Repository`**, and **`@Autowired`**.
 
 ```java
@@ -80,7 +80,7 @@ Spring automatically injects dependencies (repositories/services), so you don’
 
 ---
 
-### 🔍 Java Stream API
+### Java Stream API
 Used for converting raw SQL query results (`List<Object[]>`) into DTOs.
 
 ```java
@@ -98,7 +98,7 @@ return userRawList.stream()
 
 ---
 
-### 🧾 Native SQL Queries
+### Native SQL Queries
 Applied in repositories to allow **flexible joins** and **manual control** over the query.
 
 ```java
